@@ -1,0 +1,17 @@
+h3
+{
+    font-size: 25 !important;
+}
+
+canvas
+{
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation1
+{
+    from {box-shadow: 1 px 1 px 38px aquamarine;}
+    to {box-shadow: 1 px 1 px 38px rgb(20, 239, 246);}
+}
